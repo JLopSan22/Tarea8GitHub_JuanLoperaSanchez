@@ -14,6 +14,7 @@ class CalculadoraTest {
     static void tearDownAfterClass() throws Exception {
         System.out.println("---Final de las pruebas---");
     }
+    // Casos de prueba calculadora
     @Test
     void testCalculadora() {
         System.out.println("Casos de prueba de todos los métodos");
@@ -22,11 +23,13 @@ class CalculadoraTest {
         assertEquals(15, calculate.multiplica(3, 5));
         assertEquals(3, calculate.divide(15, 5));
     }
+    // Casos de prueba suma
     @Test
     void testSuma() {System.out.println("Casos de prueba del método suma");
         assertEquals(2,calculate.suma(1,1));
         assertNotEquals(3,calculate.suma(1,1));
     }
+    // Casos de prueba división
     @Test
     public void testDivision() {
         System.out.println("Casos de prueba del método división");
@@ -36,7 +39,7 @@ class CalculadoraTest {
             System.out.println("División por 0 producida");
         }
     }
-
+    // Casos de prueba resta
     @Test
     void testResta() {
         System.out.println("Casos de prueba del método resta");
@@ -50,7 +53,7 @@ class CalculadoraTest {
             assertEquals(numeros1[i]-numeros2[i],calculate.resta(numeros1[i],numeros2[i]));
         }
     }
-
+    // Casos de prueba multiplicación
     @Test
     void testMultiplicacion() {
         System.out.println("Casos de prueba del método multiplicación");
