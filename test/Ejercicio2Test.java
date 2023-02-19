@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Ejercicio2Test {
-
+    // Casos de prueba ejercicio 1
     @Test
     void ej1() {
         System.out.println("Casos de prueba del ejercicio 1 ");
@@ -13,6 +13,7 @@ public class Ejercicio2Test {
         assertEquals(6,Ejercicio2.ej1(2,6,1));
     }
 
+    // Casos de prueba ejercicio 2
     @Test
     void ej2() {
         System.out.println("Casos de prueba del ejercicio 2 ");
@@ -22,6 +23,7 @@ public class Ejercicio2Test {
         assertEquals(4,Ejercicio2.ej2(1,5,3));
     }
 
+    // Casos de prueba ejercicio 5
     @Test
     void ej5() {
         System.out.println("Casos de prueba del ejercicio 5 ");
@@ -30,6 +32,7 @@ public class Ejercicio2Test {
         assertEquals(2,Ejercicio2.ej5(4,10));
     }
 
+    // Casos de prueba ejercicio 6
     @Test
     void ej6() {
         System.out.println("Casos de prueba del ejercicio 6 ");
@@ -40,6 +43,7 @@ public class Ejercicio2Test {
 
     }
 
+    // Casos de prueba ejercicio 8
     @Test
     void ej8() {
         System.out.println("Casos de prueba del ejercicio 8 ");
